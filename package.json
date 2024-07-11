@@ -1,0 +1,17 @@
+{
+  "name": "book-mern",
+  "version": "1.0.0",
+  "description": "Booking api app in express",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Madhur <madhurchaturvedi2000@gmail.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^20.14.10",
+    "nodemon": "^3.1.4",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.5.3"
+  }
+}
