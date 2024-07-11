@@ -4,7 +4,7 @@
   "description": "Booking api app in express",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "nodemon index.ts"
   },
   "author": "Madhur <madhurchaturvedi2000@gmail.com>",
   "license": "ISC",
