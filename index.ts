@@ -1,6 +1,6 @@
-import { config } from "./config/config";
+import { config } from "./src/config/config";
 import app from "./src/app";
-import connectDB from "./config/db";
+import connectDB from "./src/config/db";
 
 const startServer = async () => {
   // connect database

@@ -1,10 +1,10 @@
 import mongoose from "mongoose";
-import { config } from "../config/config";
+import { config } from "./config";
 
 const connectDB = async () => {
   try {
     mongoose.connection.on("connected", () => {
-      console.log("Connected data base successfully");
+      console.log("Connected data base successfully🍃");
     });
 
     mongoose.connection.on("error", (err) => {
