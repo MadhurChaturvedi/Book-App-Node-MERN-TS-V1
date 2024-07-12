@@ -5,6 +5,8 @@ import userRouter from "./user/userRouter";
 
 const app = express();
 
+app.use(express.json());
+
 // Http methods
 app.get("/", (req, res) => {
   res.json({ messgae: "Wokring API!" });
