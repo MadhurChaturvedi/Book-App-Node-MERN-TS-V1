@@ -51,9 +51,13 @@ const createUser = async (req: Request, res: Response, next: NextFunction) => {
   }
 
   // response
-  res.json({ accessToken: token });
+  res.status(201).json({ accessToken: token });
 };
 
-export { createUser };
+const loginUser = async (req: Request, res: Response, next: NextFunction) => {
+  res.json({ messgae: "ok" });
+};
+
+export { createUser, loginUser };
 
 // 2:17:59 jwt token
