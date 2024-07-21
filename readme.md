@@ -35,7 +35,10 @@ The Book App allows users to manage a collection of books, including adding new 
 1. **Clone the repository**
     ```bash
     https://github.com/MadhurChaturvedi/Book-App-Node-MERN-TS-V1.git
-    cd BOOK-MERN
+ 
+    ```
+    ```bash
+       cd BOOK-MERN
     ```
 
 2. **Install dependencies**
